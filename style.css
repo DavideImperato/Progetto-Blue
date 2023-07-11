@@ -251,7 +251,7 @@ h2{
     }
     
     .box1,.box2,.box3,.box4{
-        width: 100%;
+        width: 90%;
         height: 100%;
         box-shadow: 0px 8px 20px lightgray;
         border-radius: 20px;
@@ -260,9 +260,9 @@ h2{
         margin-top: 20px;
         margin-bottom: 0;
         text-align: center;
-
-
    }
+   
+
    .boxfoto{
     order: 1;
     margin-top: 50px;
