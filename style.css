@@ -1,6 +1,9 @@
 *{
     font-family: 'Righteous', roboto ;
 }
+.testoHeader{
+    font-family: 'Roboto', sans-serif;
+}
 .main-header{
     height: 100vh;
     background:url(./media/wave1.svg),url(./media/header.jpg);
@@ -23,7 +26,7 @@ button{
     font-family: 'Roboto', sans-serif;
     border:none;
     font-size: 23px;
-    padding: 10px 50px;
+    padding: 10px 80px;
     background-color: gold;
 }
 h2{
@@ -74,9 +77,10 @@ h2{
 }
 .blocco-dx{
     width: 600px;
-    height: 100%;
+    min-height: 10px;
     box-shadow: 0px 8px 20px lightgray;
     border-radius: 30px;
+    padding: 0;
 }
 .p-block1{
     font-family: 'Roboto', sans-serif;
@@ -206,7 +210,7 @@ h2{
     width: 6px;
     background-color: #1566C0;
     top: 0;
-    bottom: 90px;
+    bottom: 0px;
     left: 50%;
     margin-left: -3px;
   }
@@ -223,10 +227,10 @@ h2{
     margin: 20px;
 }
 .footer{
-    height: 80vh;
-    background:linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(255,255,255,0) 48%, rgba(0,0,0,.75) 75%), url(./media/footer.jpg);
+    height: 100vh;
+    background:linear-gradient(180deg, rgba(255,255,255,1) 4%, rgba(255, 255, 255, 0.496) 30%, rgba(255,255,255,0) 48%, rgba(0,0,0,.75) 75%), url(./media/footer.jpg);
     background-size: cover;
-    background-position: bottom;
+    background-position: top,bottom;
 }
 .titoloFooter{
     
